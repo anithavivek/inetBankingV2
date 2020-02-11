@@ -40,7 +40,7 @@ public class TC_AddCustomerTest_003 extends BaseClass {
 		addcust.custpinno("5000074");
 		addcust.custtelephoneno("987890091");
 		
-		String email=randomestring()+"@gmail.com";
+		String email=randomestring(8)+"@gmail.com";
 		addcust.custemailid(email);
 		addcust.custpassword("abcdef");
 		addcust.custsubmit();
@@ -55,6 +55,7 @@ public class TC_AddCustomerTest_003 extends BaseClass {
 		{
 			Assert.assertTrue(true);
 			logger.info("test case passed....");
+			logger.info(addcust.getcustomerID());
 			
 		}
 		else

@@ -63,6 +63,11 @@ WebDriver ldriver;
 	@FindBy(how = How.NAME, using = "sub")
 	WebElement btnSubmit;
 	
+	@FindBy(how = How.XPATH, using ="/html[1]/body[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[4]/td[2]")
+	@CacheLookup
+	WebElement customerID;
+	
+	
 	public void clickAddNewCustomer() {
 		lnkAddNewCustomer.click();
 			
@@ -85,26 +90,32 @@ WebDriver ldriver;
 	}
 
 	public void custaddress(String caddress) {
+		txtaddress.clear();
 		txtaddress.sendKeys(caddress);
 	}
 
 	public void custcity(String ccity) {
+		txtcity.clear();
 		txtcity.sendKeys(ccity);
 	}
 
 	public void custstate(String cstate) {
+		txtstate.clear();
 		txtstate.sendKeys(cstate);
 	}
 
 	public void custpinno(String cpinno) {
+		txtpinno.clear();
 		txtpinno.sendKeys(String.valueOf(cpinno));
 	}
 
-	public void custtelephoneno(String ctelephoneno) {
+	public void custtelephoneno(String ctelephoneno){
+		txttelephoneno.clear();
 		txttelephoneno.sendKeys(ctelephoneno);
 	}
 
 	public void custemailid(String cemailid) {
+		txtemailid.clear();
 		txtemailid.sendKeys(cemailid);
 	}
 
@@ -114,5 +125,9 @@ WebDriver ldriver;
 
 	public void custsubmit() {
 		btnSubmit.click();
+	}
+	
+	public String getcustomerID(){
+		return customerID.getText();
 	}
 }

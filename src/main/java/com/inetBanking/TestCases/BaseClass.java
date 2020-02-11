@@ -8,6 +8,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -72,14 +73,29 @@ public class BaseClass {
     	System.out.println("Screenshot taken");
     }
     
-    public String randomestring()
+    public String randomestring(int a)
 	{
-		String generatedstring=RandomStringUtils.randomAlphabetic(8);
+		String generatedstring=RandomStringUtils.randomAlphabetic(a);
 		return(generatedstring);
 	}
 	
-	public static String randomeNum() {
-		String generatedString2 = RandomStringUtils.randomNumeric(4);
+	public static String randomeNum(int b) {
+		String generatedString2 = RandomStringUtils.randomNumeric(b);
 		return (generatedString2);
+	}
+	
+	public boolean isAlertPresent() //user defined method created to check alert is present or not
+	{
+		try
+		{
+		driver.switchTo().alert();
+		return true;
+		}
+		catch(NoAlertPresentException e)
+		{
+			driver.navigate().refresh();
+			return false;
+		}
+		
 	}
 }

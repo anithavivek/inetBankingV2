@@ -3,7 +3,6 @@ package com.inetBanking.TestCases;
 import java.io.IOException;
 
 import org.junit.Assert;
-import org.openqa.selenium.NoAlertPresentException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -41,21 +40,6 @@ public class TC_loginTest_002 extends BaseClass {
 			driver.switchTo().defaultContent();			
 		}
 }
-	
-public boolean isAlertPresent() //user defined method created to check alert is present or not
-	{
-		try
-		{
-		driver.switchTo().alert();
-		return true;
-		}
-		catch(NoAlertPresentException e)
-		{
-			driver.navigate().refresh();
-			return false;
-		}
-		
-	}
 	
 	
 	@DataProvider(name="LoginData")

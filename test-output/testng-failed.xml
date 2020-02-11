@@ -7,13 +7,13 @@
   <test thread-count="5" name="BankingApp Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.inetBanking.TestCases.TC_loginTest_002">
+      <class name="com.inetBanking.TestCases.TC_EditCustomer_004">
         <methods>
+          <include name="editCustomer"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="loginDDT" invocation-numbers="1"/>
         </methods>
-      </class> <!-- com.inetBanking.TestCases.TC_loginTest_002 -->
+      </class> <!-- com.inetBanking.TestCases.TC_EditCustomer_004 -->
     </classes>
   </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [inet_BankingV2] -->
