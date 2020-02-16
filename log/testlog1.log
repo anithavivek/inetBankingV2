@@ -667,3 +667,31 @@
 2020-02-11 13:36:47,580 [main] INFO ebanking - Submitted the customer ID: 10449
 2020-02-11 13:36:48,020 [main] INFO ebanking - Valid ID
 2020-02-11 13:36:50,446 [main] INFO ebanking - Customer details updated Successfully!!!
+2020-02-16 00:15:21,331 [main] INFO ebanking - URL is opened
+2020-02-16 00:15:21,627 [main] INFO ebanking - User name is provided
+2020-02-16 00:15:21,739 [main] INFO ebanking - Passsword is provided
+2020-02-16 00:15:26,435 [main] INFO ebanking - providing customer details....
+2020-02-16 00:15:36,606 [main] INFO ebanking - validation started....
+2020-02-16 00:15:36,628 [main] INFO ebanking - test case passed....
+2020-02-16 00:15:36,669 [main] INFO ebanking - 56616
+2020-02-16 00:15:44,248 [main] INFO ebanking - URL is opened
+2020-02-16 00:15:44,459 [main] INFO ebanking - User name is provided
+2020-02-16 00:15:44,627 [main] INFO ebanking - Passsword is provided
+2020-02-16 00:15:46,164 [main] INFO ebanking - Opened the Edit Customer Form...
+2020-02-16 00:15:46,725 [main] INFO ebanking - Submitted the customer ID: 10449
+2020-02-16 00:15:47,185 [main] INFO ebanking - Valid ID
+2020-02-16 00:15:48,974 [main] INFO ebanking - Customer details updated Successfully!!!
+2020-02-16 00:17:27,965 [main] INFO ebanking - URL is opened
+2020-02-16 00:17:28,188 [main] INFO ebanking - User name is provided
+2020-02-16 00:17:28,438 [main] INFO ebanking - Passsword is provided
+2020-02-16 00:17:42,971 [main] INFO ebanking - providing customer details....
+2020-02-16 00:18:04,188 [main] INFO ebanking - validation started....
+2020-02-16 00:18:04,218 [main] INFO ebanking - test case passed....
+2020-02-16 00:18:04,262 [main] INFO ebanking - 82162
+2020-02-16 00:18:12,031 [main] INFO ebanking - URL is opened
+2020-02-16 00:18:12,241 [main] INFO ebanking - User name is provided
+2020-02-16 00:18:12,333 [main] INFO ebanking - Passsword is provided
+2020-02-16 00:18:24,148 [main] INFO ebanking - Opened the Edit Customer Form...
+2020-02-16 00:18:30,040 [main] INFO ebanking - Submitted the customer ID: 10449
+2020-02-16 00:18:30,577 [main] INFO ebanking - Valid ID
+2020-02-16 00:18:38,436 [main] INFO ebanking - Customer details updated Successfully!!!

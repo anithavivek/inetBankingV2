@@ -1,3 +1,5 @@
+com\inetBanking\TestCases\TC_EditCustomer_004.class
+com\inetBanking\PageObject\EditCustomerPage.class
 com\inetBanking\TestCases\BaseClass.class
 com\inetBanking\TestCases\TC_AddCustomerTest_003.class
 com\inetBanking\PageObject\LoginPage.class
